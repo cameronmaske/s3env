@@ -36,7 +36,7 @@ pip install s3env
 Create an `s3env.json`.
 ```
 {
-    "prod": "s3://zappa-private-github-pages-dev/prod.json"
+    "prod": "s3://your-bucket-here/file-in-bucket.json"
 }
 ````
 

@@ -14,14 +14,14 @@ FOO=bar
 
 $ s3env prod set:BONJOUR=hello
 Key successfully set.
-Current configuration is...
+Current key/values are...
 API_KEY=secret
 FOO=bar
 BONJOUR=hello
 
 $ s3env prod rm:BONJOIR
 Key removed.
-Current configuration is...
+Current key/values are...
 API_KEY=secret
 FOO=bar
 ```

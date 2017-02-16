@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 0.0.4
+
+2017-02-15
+
+Added full README to pypi.
+
 ## Version 0.0.1
 
 2017-02-15

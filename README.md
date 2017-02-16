@@ -1,8 +1,10 @@
 # S3env
 
-Manipulate a simple key/value JSON object file in an S3 bucket. Built to ease setting [remote enviroment variables with Zappa](https://github.com/Miserlou/Zappa#remote-environment-variables).
+Manipulate a key/value JSON object file in an S3 bucket through the CLI. Built to ease setting [remote enviroment variables with Zappa](https://github.com/Miserlou/Zappa#remote-environment-variables).
 
 ## Usage
+
+![](tty.gif)
 
 ### Quick start.
 ```

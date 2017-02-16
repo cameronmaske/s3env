@@ -8,8 +8,9 @@ requires = [
 
 setup(
     name="s3env",
-    version="0.0.1",
+    version="0.0.4",
     author="Cameron Maske",
+    description="Manipulate a key/value JSON object file in an S3 bucket through the CLI",
     author_email="cameronmaske@gmail.com",
     url='https://github.com/cameronmaske/s3env',
     py_modules=['s3env'],

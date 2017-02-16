@@ -9,12 +9,14 @@ Manipulate a simple key/value JSON object file in an S3 bucket. Built to ease se
 $ s3env prod get
 API_KEY=secret
 FOO=bar
+
 $ s3env prod set:BONJOUR=hello
 Key successfully set.
 Current configuration is...
 API_KEY=secret
 FOO=bar
 BONJOUR=hello
+
 $ s3env prod rm:BONJOIR
 Key removed.
 Current configuration is...
@@ -46,4 +48,11 @@ $ s3env --help
 After pulling down the repo locally, create a virtualenv, then install by running...
 ```
 pip install -e .
+```
+
+
+## Deployment
+Publish to pypi with...
+```
+python setup.py sdist upload -r pypi
 ```

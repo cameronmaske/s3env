@@ -7,7 +7,7 @@ requires = [
 
 
 setup(
-    name="s3-env",
+    name="s3env",
     version="0.0.1",
     author="Cameron Maske",
     author_email="cameronmaske@gmail.com",
